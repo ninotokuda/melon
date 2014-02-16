@@ -1,0 +1,21 @@
+.portfolio-item {
+    margin-bottom: 25px;
+}
+body {
+    margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+    position: relative;
+}
+
+img {
+    border:1px solid #EEE;
+    padding:6px;
+}
+.image_override{
+    margin-top: 3em !important;
+}
+li{
+ list-style:none;
+}
+.no-border{
+    border: 0;
+}

@@ -52,9 +52,6 @@
 .pad-bottom{
     padding-bottom: 1em;
 }
-.margin-top{
-    margin-top: 1em;
-}
 .margin-bottom{
     margin-bottom: 1em;
 }
@@ -71,10 +68,9 @@
     position: absolute;
 }
 
-.override{
+.overriden{
     border: 1px solid white !important;
     color: #fff !important;
-
 }
 
 .style-icon{
@@ -83,4 +79,8 @@
 .logo-icon{
     padding-top: 0.9em;
     margin-left: -0.8em;
+}
+.img-resize{
+    width: 419px;
+    height: 319px;
 }

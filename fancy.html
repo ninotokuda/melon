@@ -21,6 +21,10 @@
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/color.css" rel="stylesheet">
     <link href="css/landing.css" rel="stylesheet">
+    <link href="css/fancy.css" rel="stylesheet">
+  <!--  <link href="css/portfolio-item.css" rel="stylesheet">
+ <!--   <link href="css/portfolio_styling.css" rel="stylesheet">   -->
+
 
 </head>
 
@@ -32,7 +36,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">
+                <a class="navbar-brand" href="index.html">
                     <i class="glyphicon glyphicon-heart bg-col-redpink opacity"></i>  <span class="light">MELON</span>
                 </a>
             </div>
@@ -61,69 +65,48 @@
     </nav>
 
 
-
-
-
-
-
-
-
-
-    <section class="fancy bg-col-gray-l">
+    <section class="fancy bg-col-gray-l" style=" margin-top: 3.8em; height: 100%;" >
         <div class="container">
-            <div class="carousel">
+            <div class="carousel" style="margin-top: 10em;">
                 <!-- Start of first div -->
                 <li class="card1">
                     <div class="row">
-                        <div class="col-lg-12 row">
-                            <h1 class="name-styling itemName1 itemName page-header override">Red Rocket</h1>
+                        <div class="col-lg-12 row image_override">
+                            <h2 id="foodTitle" class="food-name overriden bg-col-red margin-top">Omelette</h2>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-7"><img class="itemImage1 itemImage img-responsive" src=""></div>
+                        <div id="foodImg" class="col-md-7"><img class="img-responsive img-resize" src="img/breakfast/breakfast-omelet.jpg">
+                        </div>
                         <div class="col-md-4 rightCard">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="move-downs col-md-6">
-                            <a href="" class="dislike1 dislike dislikeButton push-right"><img class="dislike" src="images/dislike.jpg"
-                                                                                              style="width: auto !important; height:  auto !important;  border:  none;"></a>
-                        </div>
-                        <div class="move-downs col-md-6">
-                            <a href="" class="like1 like likeButton push-left"><img class="like" src="images/like.jpg"
-                                                                                    style="width: auto !important; height:  auto !important;  border:  none;"></a>
-                        </div>
+                    <div class="row col-md-12">
+                        <a href="" class="dislike1 dislike dislikeButton push-right">
+                        <img class="dislike no-border" src="img/dislike.jpg"></a>
+                        <a href="pick.html?id=omelette" target="_self">
+                        <img class="like no-border" src="img/like.jpg"></a>
                     </div>
-                    <br>
-                    <br>
-                    <br>
-
                 </li>
                 <!-- End of first div -->
                 <!-- Start of second div -->
                 <li class="card2">
                     <div class="row">
-                        <div class="col-lg-12 row">
-                            <h1 class="name-styling itemName1 itemName page-header override">Red Rocket</h1>
+                        <div class="col-lg-12 row image_override">
+                            <h2 id="foodTitle" class="food-name overriden bg-col-red margin-top">Cinnamon Buns</h2>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-7"><img class="itemImage2 itemImage img-responsive" src="images/shoe_1.jpg"></div>
-                        <div class="col-md-4  rightCard">
-                            <h3>How Many People Like this Product:</h3>
-                            <input type="text" value="0" class="dial">
+                        <div id="foodImg" class="col-md-7"><img class="img-responsive img-resize" src="img/breakfast/breakfast-bagel.jpg">
+                        </div>
+                        <div class="col-md-4 rightCard">
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="move-downs col-md-6">
-                            <a href="" class="dislike2 dislike dislikeButton push-right"><img class="dislike" src="images/dislike.jpg"
-                                                                                              style="width: auto !important; height:  auto !important;  border:  none;"></a>
-                        </div>
-                        <div class="move-downs col-md-6">
-                            <a href="" class="like2 like likeButton push-left"><img class="like" src="images/like.jpg"
-                                                                                    style="width: auto !important; height:  auto !important;  border:  none;"></a>
-                        </div>
+                    <div class="row col-md-12">
+                        <a id="foodID" class="dislikeButton push-right">
+                            <img class="dislike no-border" src="img/dislike.jpg"></a>
+                        <a href="pick.html?index=1" target="_self">
+                            <img class="like no-border" src="img/like.jpg"></a>
                     </div>
                 </li>
             </div>
@@ -141,6 +124,7 @@
     <script src="js/jquery.roundabout-shapes.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/itemPick.js"></script>
+    <script src="js/cycle.js"></script>
 
     <!-- Google Maps API Key - You will need to use your own API key to use the map feature -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
