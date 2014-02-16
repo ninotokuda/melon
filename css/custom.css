@@ -1,0 +1,104 @@
+
+
+
+
+.intro-header {
+	
+	background-color: rgb(185,230,235);
+
+}
+
+.navbar {
+
+	background-color: rgb(70,85,91);
+
+}
+
+
+.navbar-default .navbar-brand {
+
+	color: white;
+
+}
+
+.navbar-default .navbar-brand:hover {
+
+	color: rgb(200,200,200);
+
+}
+
+.navbar-nav li a {
+
+	color: white;
+
+}
+
+.navbar-nav:hover {
+
+	color: rgb(200,200,200);
+
+}
+
+
+.navbar-nav li a:hover {
+
+	color: red;
+	background-color: red;
+}
+
+
+.top_link:hover {
+	color: red;
+}
+
+.intro-devider {
+
+	/*
+	border-top: 1px solid rgb(185,230,235);
+	border-bottom: 1px solid rgb(185,230,235);
+	height: 2px;
+	*/
+
+}
+
+footer {
+
+	background-color: rgb(185,230,235);
+
+}
+
+footer .text-muted {
+
+	color: rgb(70,85,91);
+	vertical-align: top;
+
+}
+
+footer .list-inline li a {
+
+	color: rgb(70,85,91);
+	text-decoration: none;
+}
+
+.section-heading {
+
+	color: rgb(70,85,91);
+
+}
+
+.lead {
+
+	color: rgb(70,85,91);
+
+}
+
+.col-md-6 ul {
+	text-align: right;
+	vertical-align: bottom;
+	margin-top: 10px;
+}
+
+
+
+
+
